@@ -506,6 +506,7 @@ body .maxcontainer {
 }
 .header__social-link::before {
   transition: all 0.3s ease 0s;
+  transform: rotate(-90deg);
 }
 @media (any-hover: hover) {
   .header__social-link:hover::before {
