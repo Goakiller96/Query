@@ -138,6 +138,12 @@ body .maxcontainer {
   padding: 0px 0.9375rem;
 }
 
+.header-container {
+  max-width: 109.8125rem;
+  margin: 0 auto;
+  padding: 0px 0.9375rem;
+}
+
 .wrapper {
   min-height: 100%;
   display: flex;
@@ -382,7 +388,6 @@ body .maxcontainer {
   background-image: url(../img/header-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
   height: 98.3125rem;
   position: relative;
   width: 100%;
@@ -1846,20 +1851,20 @@ body .maxcontainer {
   }
 }
 @media (min-width: 20em) and (max-width: 93.25em) {
-  @supports (font-size: clamp( 0.625rem , 0.4884812287rem  +  0.6825938567vw , 1.125rem )) {
+  @supports (font-size: clamp( 0.75rem , 0.6476109215rem  +  0.5119453925vw , 1.125rem )) {
     .content__box-text {
-      font-size: clamp( 0.625rem , 0.4884812287rem  +  0.6825938567vw , 1.125rem );
+      font-size: clamp( 0.75rem , 0.6476109215rem  +  0.5119453925vw , 1.125rem );
     }
   }
-  @supports not (font-size: clamp( 0.625rem , 0.4884812287rem  +  0.6825938567vw , 1.125rem )) {
+  @supports not (font-size: clamp( 0.75rem , 0.6476109215rem  +  0.5119453925vw , 1.125rem )) {
     .content__box-text {
-      font-size: calc(0.625rem + 0.5 * (100vw - 20rem) / 73.25);
+      font-size: calc(0.75rem + 0.375 * (100vw - 20rem) / 73.25);
     }
   }
 }
 @media (max-width: 20em) {
   .content__box-text {
-    font-size: 0.625rem;
+    font-size: 0.75rem;
   }
 }
 .swiper {
